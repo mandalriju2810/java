@@ -1,1 +1,54 @@
 
+1) Enter 3 numbers from the user & make a function to print their average.
+
+ANS:-
+
+
+import java.util.*;
+public class Main
+{
+      public static void printAvarage(int a,int b, int c){
+        int avarage= (a+b+c)/3;
+       System.out.println(avarage);
+        
+    }    
+	public static void main(String[] args) {
+	    Scanner sc= new Scanner(System.in);
+	    System.out.println("enter 3 number");
+	    int a= sc.nextInt();
+	    int b= sc.nextInt();
+	    int c= sc.nextInt();
+	     System.out.println("the avarage are::");
+	     printAvarage(a,b,c);
+	}
+}
+
+
+2) Write a function which takes in 2 numbers and returns the greater of those two
+
+ANS:-
+
+import java.util.*;
+public class Main
+{
+    
+    public static void printGreater(int a,int b){
+        if(a>b){
+            System.out.println(a);
+        }
+        else{
+            System.out.println(b);
+        }   
+    }    
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    System.out.println("enter 2 numbers::");
+	    int a= sc.nextInt();
+	    int b=sc.nextInt();
+	    System.out.println("greater is:");
+	    printGreater(a,b);
+	}
+}
+
+
+3)
