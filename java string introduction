@@ -1,7 +1,25 @@
 string name= sc.nextLine();                     //nextLine() is used to print two variable including space
 
 
+//charAt();
+public class Main
+{
+	public static void main(String[] args) {
+		String name1="Riju mandal";
+		for(int i=0;i<name1.length();i++){
+		    System.out.println(name1.charAt(i));
+		}
+	}
+}
 
+// concatination means add two string
+
+
+// substring(beg index,last index);
+
+//sb.append();
+//sb.delete();
+//sb.insert();
 
 
 
