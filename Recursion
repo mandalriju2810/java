@@ -1,1 +1,24 @@
+//Recursion
 
+a function that is called itself
+
+q.1>
+print numbers 5 to 1
+-----------------
+ANS:
+
+public class Main
+{
+    public static void printNum(int n){
+        if(n==0){   //base case
+            return;
+        }
+        System.out.println(n);   //print
+        printNum(n-1);  /// recursion
+        
+    }
+	public static void main(String[] args) {
+		int n=5;
+		printNum(n);
+	}
+}
