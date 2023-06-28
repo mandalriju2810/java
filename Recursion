@@ -51,3 +51,70 @@ public class Main
 		printNum(n);
 	}
 }
+
+
+//print 1to 5
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	 fun(5);
+	}
+	
+	static void fun(int n){
+	    if(n==0){
+	        return;
+	    }
+	     
+	    fun(n-1);
+         System.out.println(n);
+	   
+	}
+}
+
+
+// print Both 5 to 1 and 1 to 5
+
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+public class Main
+{
+	public static void main(String[] args) {
+	 funBoth(5);
+	}
+	
+	static void fun(int n){
+	    if(n==0){
+	        return;
+	    }
+	     System.out.println(n);
+	    fun(n-1);
+	   
+	}
+		static void funrev(int n){
+	    if(n==0){
+	        return;
+	    }
+	     funrev(n-1);
+	     System.out.println(n);
+	   
+	   
+	}
+	
+	static void funBoth(int n){
+	    if(n==0){
+	        return;
+	    }
+	   System.out.println(n);
+	    funBoth(n-1);
+	    System.out.println(n);
+	}
+}
+
